@@ -1,0 +1,32 @@
+body{
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background:url("https://images.pexels.com/photos/1029624/pexels-photo-1029624.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500")
+}
+
+.community_intro{
+    background:white;
+    height: 200px;
+    width:50%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+h1{
+    color: hsl(71, 73%, 54%);
+}
+
+.signup_section{
+    background:hsl(179, 62%, 43%);
+}
+
+button{
+    background:hsl(71, 73%, 54%);
+}
+
+.user_perk_section{
+    background:hsl(179, 47%, 52%);
+}
+
+
+

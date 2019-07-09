@@ -3,34 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" href = "style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ 
 </head>
 <body>
-  Join our community
+  <section class = "community_intro">
+ <h1>Join our community</h1> 
 
-  30-day, hassle-free money back guarantee
+ <h3> 30-day, hassle-free money back guarantee</h3>
 
   Gain access to our full library of tutorials along with expert code reviews. 
   Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
+</section>
+<div class="container">
+    <div class="row">
+        <div class="col">
+<section class = "signup_section">
+ <h3>Monthly Subscription </h3> 
 
   &dollar;29 per month
 
-  Full access for less than &dollar;1 a day
+  Full access for less than &dollar;1 a day<br>
 
-  Sign Up
-
-  Why Us
+ <button> Sign Up</button>
+</section>
+        </div>
+        <div class="col">
+<section class = "user_perk_section">
+  <h3>Why Us </h3> 
 
   Tutorials by industry experts
   Peer &amp; expert code review
@@ -39,7 +46,9 @@
   Community forum
   Flashcard decks
   New videos every week
-  
+</section>
+</div>
+</div>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
